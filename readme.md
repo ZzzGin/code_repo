@@ -4,4 +4,7 @@
   * compile all the repo with *Developer Command Prompt for VS 2017*
 * run.bat
   * run a test to show what is built
-
+* help.txt
+  * show what functions does the client have
+* Parts.txt
+  * show the component of this project
