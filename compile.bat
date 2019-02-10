@@ -1,0 +1,1 @@
+devenv p3.sln /rebuild

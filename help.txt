@@ -1,0 +1,84 @@
+///////////////////////////////////////////////////////////////////////
+// Help.txt - Features of this app                                   //
+// ver 1.0                                                           //
+// Jing Qi, CSE687 - Object Oriented Design, Spring 2018             //
+///////////////////////////////////////////////////////////////////////
+
+Hi, this help file would describe all the features (not bugs:) of this
+application. 
+
+<Connect Tab>
+  -  1. You need to connect to a server to get access to other tabs.
+  -  2. You can change the IP address and port number of the remote se-
+        rver to get connected.
+  -  3. You can specify your client port number if the default one is 
+        used.
+  -  4. For the demo, we can connect to the server application on the  
+        same machine of client side by using the default IP address of 
+        "localhost".
+  -  5. The information of connection would be shown in the lower text-
+        block. 
+  -  6. You can disconnect to the server.
+  -  7. You can connect to the server with multiple clients with
+        different client's port numbers.
+
+<Check-In Tab>
+  -  1. After giving out the information of this check-in session, you 
+        can check-in a file.
+  -  2. Those forms with "*" is necessary for checking-in.
+  -  3. For the File field, you can click on the open button and select
+        the file in the win32 file dialog.
+  -  4. By checking the "Select in BrowseTab" checkbox, you can go to
+        the Browse-Tab and search for the files you need to add to the 
+        dependency. Then you can simply double-click the key in the list
+        and it would be added to the children list automatically. If you
+        make some mistakes, you can easily delete it in the chidren list.
+  -  5. If the "Close" checkbox is checked, you will make a close-Check-
+        in. Otherwise, an open-check-in will be made. 
+
+<Check-Out Tab>
+  -  1. After giving out the information of this check-out session, you 
+        can check-out a file.
+  -  2. There is two ways to fill the blanks. One is filling the
+        "NameSpace", "File Name" and "Version#" manualy. The key would be
+        generated automatically. Or, you can go to Browse-Tab and double
+        click on the one you want to checkout. The key would be copied to 
+        the clipboard. Then, you can go to the Check-out Tab and paste it
+        to the "Key". The following 3 blanks would be filled automati-
+        cally. 
+  -  3. If the "With Dependency" checkbox is checked, all dependencies 
+        would be checked-out together. Otherwise, just one file selected
+        would be checked-out.
+  -  4. The Check out files can be found in 
+        "../ClientStorage/CheckOutFiles/".
+
+<Browse Tab>
+  -  1. By giving out the information of the file you want to browse, 
+        all keys satisfy to the information would be listed in the 
+        Search Results list. 
+  -  2. Forms left blank will not be queried. For example, I only know
+        the namespace of the file I want is "repo". I can just fill the 
+        NameSpace for "repo", and click on "Accurate Search". 
+  -  3. You can fill the blanks with regular expressions. Click on "RE
+        Search" and a regular expressions query would be made. 
+  -  4. Double click on the keys in Search Results list will show the 
+        dependencies of this key. If the Recursive checkbox is checked, 
+        dependency would be walked through recursively.
+  -  5. Double click on the keys in Search Results list and Dependencies
+        list would copy the key into clipboard. The information of this 
+        selected key would be filled into the information blanks to  
+        make the next search easy.
+
+<View File Tab>
+  -  1. Double click the dirs in Remote Directory list will go into this
+        dir and show the files in the Remote Files list.
+  -  2. Double click the files in Remote Files list will pop up a new 
+        window and show the content of the file.
+  -  3. Clicking the Home button to get to the root of the repository.
+
+<View Metadata Tab>
+  -  1. Fill the Key blank and click the View Metadata button, the 
+        result would be shown. 
+  -  2. It is recommanded to get the key into the clipboard from the
+        browse-tab. When you go to V-M tab, the content in the clipboard
+        would be filled into the Key automatically.

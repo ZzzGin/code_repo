@@ -1,0 +1,3 @@
+﻿  Translater.obj : /DEBUG:FASTLINK is not supported when managed code is present; restarting link with /DEBUG:FULL
+Utilities.lib(Utilities.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/INCREMENTAL:NO' specification
+  Translater.vcxproj -> C:\Users\zzzgi\OneDrive\Computer Engineering\ObjectOrientedDesign\Projects\P4\p4_qj\Debug\Translater.dll
